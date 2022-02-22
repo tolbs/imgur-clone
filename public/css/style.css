@@ -1,0 +1,79 @@
+header {
+    color: rgb(255, 128, 191);
+}
+
+body {
+    background-color: #F4E8C1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+footer {
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+label {
+    color: #70A0AF;
+}
+
+h1 {
+    color: #70A0AF;
+}
+
+h2 {
+    color: #A0C1B9;
+}
+
+h3 {
+    color: rgb(149, 128, 255);
+}
+
+a {
+    color: #331E38;
+}
+
+p {
+    color: #331E38;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #bd93f9
+}
+
+input[type=button]:hover {
+    background-color: #bd93f9;
+}
+input[type=submit]:hover {
+    background-color: #bd93f9;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 2em;
+    row-gap: 2em;
+    background-color: transparent;
+    justify-content: space-evenly;
+}
+
+#main-content > div {
+    background-color: #A0C1B9;
+    justify-content: center;
+}
+
+#flash-message {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,0);
+}
+
+#flash-message div {
+    text-align: center;
+}

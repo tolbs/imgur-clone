@@ -1,0 +1,16 @@
+<nav id="nav-bar">
+    <br>
+    <div id="brand">
+        <a href="/" id="brand-anchor"><span id="brand-text"> <i style="margin-right: .2rem;"></i>Meme Machine</span></a>
+    </div>
+    <input id="search-text" name="search-text" type="search" placeholder="Search for pictures">
+    <input id="search-button" name="search-button" type="button" value="Search">
+
+    {{#if logged}}
+    <a href="/postimage" id="post-button" class="nav-items anchor-buttons">Post</a>
+    <a id="logout-button" class="nav-items anchor-buttons">Logout</a>
+    {{else}}
+    <a href="/register" id="register" class="nav-items anchor-buttons">Register</a>
+    <a href="/login" id="login-button" class="nav-items anchor-buttons">Log In</a>
+    {{/if}}
+</nav>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Image</title>
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1> Post an Image</h1>
+    </header>
+
+    <form id="post-image" method="POST" enctype="multipart/form-data" action="/posts/createPost">
+        <div>
+            <label for="title">Post title:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+
+        <div>
+            <label for="desc">Description:</label>
+            <input type="text" id="desc" name="desc" required>
+        </div>
+
+        <div>
+            <label for="post">Upload picture:</label>
+            <input type="file" id="post" name="uploadImage" accept="image/png, image/jpeg" required>
+        </div>
+
+        <div>
+            <input type="checkbox" id="age_verification" name="check" value="age" required>
+            <label for="age_verification">I agree with the <a href="">Acceptable Use Policy</a></label>
+        </div>
+
+        <input type="submit" value="Post Image">
+    </form>
+
+</body>
+
+</html>

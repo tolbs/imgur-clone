@@ -1,0 +1,37 @@
+<header>
+    <h1> Registration</h1>
+</header>
+
+<form method="POST" action="/users/register"
+    enctype="application/x-www-form-urlencoded">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" required>
+    </div>
+
+    <div>
+        <label for="pass_confirm">Confirm password:</label>
+        <input type="password" id="pass_confirm" name="cpassword" required>
+    </div>
+
+    <div>
+        <input type="checkbox" id="age_verification" name="age" value="age" required>
+        <label for="age_verification">Are you over 13 years old?</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="tos_verification" name="tos" value="tos" required>
+        <label for="tos_verification">I've read and accept the <a href="">TOS and Privacy Rules</a></label>
+    </div>
+    <input type="submit" value="Create Account">
+</form>
