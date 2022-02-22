@@ -1,4 +1,4 @@
-# CSC 317 Term Project
+# Imgur Clone
 
 ## Purpose
 
