@@ -14,13 +14,13 @@ That leads me to think that I might be able to have a light/dark theme using Han
 # Build/Run Instructions
 
 ## Build Instructions
-1. cd imgur-clone/application
+1. cd imgur-clone
 2. npm install
 3. npm install --save nodemon mysql2 express flash sharp multer
 
 Database dump is in application/config
 
 ## Run Instructions
-1. cd imgur-clone/application
+1. cd imgur-clone
 2. nodemon
 3. go to localhost:3000 on web browser
